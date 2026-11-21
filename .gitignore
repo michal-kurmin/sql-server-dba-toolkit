@@ -1,0 +1,18 @@
+# Credentials & sensitive config
+*.pfx
+*.cer
+*.key
+.env
+*secret*
+
+# Generated reports & logs
+*.html
+*.csv
+*.log
+health-report*.md
+!docs/sample_health_report.md
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
